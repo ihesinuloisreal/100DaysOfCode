@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Button from './Button'
 
 class Counter extends Component {
     constructor(props){
@@ -28,7 +29,8 @@ class Counter extends Component {
         return (
         <div>
             <div>count - {this.state.count}</div>
-            <button onClick={()=>this.incrementFive()}>Increment</button>
+            {/* <button }>Increment</button> */}
+            <Button color = "red" onClick={()=>this.incrementFive()}/>
         </div>
         )
   }

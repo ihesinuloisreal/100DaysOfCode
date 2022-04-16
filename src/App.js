@@ -1,4 +1,5 @@
 // import Message from "./Component/Message";
+import Messages from "./Component/Messages";
 import Counter from "./Component/Counter";
 import './App.css'
 
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       {/* <Message/> */}
       <Counter/>
+      <Messages greet="Good Morning"/>
     </div>
   );
 }

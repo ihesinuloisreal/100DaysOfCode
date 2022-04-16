@@ -8,7 +8,8 @@ I am looking at React state. State can be managed with a component, onlike props
 # Day 2: 15th April
 Today i am taking a closer look on setState in the react class component. I created a button that increaments a count by 1 after it is clicked. I also looked at how to set actions that are dependent on a states that is to be set using a callback function. And i looked at incrementing our count 5 times with a click. Basically react state can be set in two ways which are. Object passing which can include a callback function, and Function which can be used used when you need to update a state bassed on the previouse state.
 
-# Day :
+# Day 3: 16th April
+Today I am looking at distructuring props and state. Destructuring props is an ES6 feature that make it possible to unpack values from arrays or properties from object into disting variables. we have two ways to distructure props in a functional component. Today i Appied the knowleged of passing props into passing states and i was able to create a button functional component, and passed in state into it from a class component.
 
 # Day :
 

@@ -1,11 +1,11 @@
 import React from 'react'
-import { useState } from 'react'
+// import { useState } from 'react'
 
-const Messages = () => {
-    const [greet, setgreet] = useState("");
+const Messages = (props) => {
+    const {greet} = props;
   return (
     <div>
-
+      <h1>Hello, User {greet}</h1>
     </div>
   )
 }
