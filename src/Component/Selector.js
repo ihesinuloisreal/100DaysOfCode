@@ -2,15 +2,21 @@ import React from 'react'
 // import Button from './Button'
 
 const Selector = () => {
-    for( var i = 0; i < 10; i++){
-        <button>{i}</button>
+    const createDigits = () => {
+        const digits = [];
+        for (let i = 1; i < 10; i++){
+          digits.push(
+            <button  key={i}>{i}</button>
+          )
+        //   onClick={() => updateCalc(i.toString())}
+        }
+        return digits;
     }
-    
-  return (
-    <div>
-        <h1>React Selector</h1>
-    </div>
-  )
+    return (
+        <div>
+            {createDigits()}
+        </div>
+    )
 }
 
 export default Selector
