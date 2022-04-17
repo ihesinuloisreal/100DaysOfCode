@@ -13,7 +13,8 @@ Today I am looking at distructuring props and state. Destructuring props is an E
 
 I was able to pass in states and props into a single button components
 
-# Day :
+# Day 4: 17th April
+Today i am looking at Event Handling in react. Event in react must be camel case e.g, onClick.
 
 # Day :
 
