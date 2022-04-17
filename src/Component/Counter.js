@@ -30,7 +30,7 @@ class Counter extends Component {
         <div>
             <div>count - {this.state.count}</div>
             {/* <button }>Increment</button> */}
-            <Button color = "red" onClick={()=>this.incrementFive()}/>
+            <Button bgcolor = "blue" fgcolor="white" click={()=>this.incrementFive()}/>
         </div>
         )
   }

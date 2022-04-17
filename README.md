@@ -11,6 +11,8 @@ Today i am taking a closer look on setState in the react class component. I crea
 # Day 3: 16th April
 Today I am looking at distructuring props and state. Destructuring props is an ES6 feature that make it possible to unpack values from arrays or properties from object into disting variables. we have two ways to distructure props in a functional component. Today i Appied the knowleged of passing props into passing states and i was able to create a button functional component, and passed in state into it from a class component.
 
+I was able to pass in states and props into a single button components
+
 # Day :
 
 # Day :
