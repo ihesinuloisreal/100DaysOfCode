@@ -16,7 +16,15 @@ I was able to pass in states and props into a single button components
 # Day 4: 17th April
 Today i am looking at Event Handling in react. Event in react must be camel case e.g, onClick.
 
-# Day :
+# Day 5: 18th April
+How to bind Event Handlers. there are four way we can bind events, which are 
+1. Binding in Render 
+2. Arrow Function 
+3. Binding in the class constructor 
+4. Class property as Arrow function
+But the best practice involve approche 3 and 4.
+
+Today i added an event listiner to listing to each button click
 
 # Day :
 
