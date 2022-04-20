@@ -27,9 +27,9 @@ But the best practice involve approche 3 and 4.
 Today i added an event listiner to listing to each button click
 
 # Day 6: 19th April
-Method passing as props. This process can be used to communicate with the parent element from the child element. To achieve that communication from the child component, we use an Arrow function in the return statemen. Arrow function syntax is the simples way to pass parameter from the child component to the parent component.
+Method passing as props. This process can be used to communicate with the parent element from the child element. To achieve that communication from the child component, we use an Arrow function in the return statemen. Arrow function syntax is the simples way to pass parameter from the child component to the parent component. 
 
-# Day :
+# Day 7: 20th April
 
 # Day :
 
