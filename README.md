@@ -30,8 +30,23 @@ Today i added an event listiner to listing to each button click
 Method passing as props. This process can be used to communicate with the parent element from the child element. To achieve that communication from the child component, we use an Arrow function in the return statemen. Arrow function syntax is the simples way to pass parameter from the child component to the parent component. 
 
 # Day 7: 20th April
+Conditional rendering UI in react. We have 4 Approches which include,
+1. If/Else
+2. Element Variables
+3. Tenary conditional operator
+4. Short circle operators
+3 and 4 is recommended
 
-# Day :
+# Day 8: 21st April
+List Rendering. I created to component PersonsList and person. The personsList is responsible for rendering the list while the Person component is responsible for rendering the HTML. while rendering list you can use the array index as key also in a case where we dont have Id.
+
+Bases if styling in css include,
+1. CSS stylesheets
+2. Inline styling
+3. CSS Modules
+4. CSS in JS Libraries.
+
+To specify multiple classes We use back-ticks `` to Change the style into Template Literals
 
 # Day :
 
