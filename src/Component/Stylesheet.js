@@ -5,7 +5,7 @@ const Stylesheet = ({primary}) => {
     let classname = primary ? 'primary' : ''
   return (
     <div>
-        <h1 className={`${classname} font-xl`}>Stylesheets</h1>
+        <h1 className={`font-xl ${classname}`}>Stylesheets</h1>
     </div>
   )
 }

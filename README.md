@@ -48,7 +48,22 @@ Bases if styling in css include,
 
 To specify multiple classes We use back-ticks `` to Change the style into Template Literals
 
-# Day :
+# Day 9: 22nd April
+Basic of form handling. 
+React lifecycle Methods in a class Components
+1. Mounting: this is a methode that are called when an instans of a component is being created or inserted into the DOM. 
+    a. Constructor: this is a special function that will get called when ever a new componet is created. Calling a constructor you must call super and pass in props.
+    b. static getDerivedStateFromProps(props,state): this method is used when the state of a component depends on the changes in props over time.
+    c. render method: this is the only required methode in a class component.
+    d. componentDidMount(): this method is called once. this is the perfect place to cause side effects. 
+2. Updating LifeCycle Method: this is a method that is called when a component is being rerenderd because of changes to either props or state.
+    a. static getDerivedStateFromProps(props,state): this method is used when the state of a component depends on the changes in props over time.
+    b. shouldComponentUpdate(nextProps, nextState): this method recieves the updated props and state. it dictates wether this method should rerender or not.
+    c. render method: this is the only required methode in a class component.
+    d. getSnapshotBeforeUpdate(prevProps, prevState): this method accepts previouse props and previouse state as its parameter and it is called right before the changes from the vertual DOM are to be reflected in the DOM.
+    e. componentDidUpdate(prevProps, prevState, snapshot): 
+3. Unmounting
+4. Error Handling
 
 # Day :
 

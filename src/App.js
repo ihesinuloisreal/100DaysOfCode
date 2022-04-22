@@ -6,7 +6,8 @@
 // import Parent from './Component/Parent';
 // import NameList from './Component/nameList';
 // import Stylesheet from './Component/Stylesheet';
-import Inline from './Component/Inline';
+// import Inline from './Component/Inline';
+import FormControl from './Component/formControl';
 import './App.css'
 
 function App() {
@@ -20,7 +21,8 @@ function App() {
       {/* <UserGreeting/> */}
       {/* <NameList/> */}
       {/* <Stylesheet primary = {true}/> */}
-      <Inline/>
+      {/* <Inline/> */}
+      <FormControl/>
     </div>
   );
 }
