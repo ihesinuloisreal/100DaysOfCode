@@ -65,7 +65,8 @@ React lifecycle Methods in a class Components
 3. Unmounting
 4. Error Handling
 
-# Day :
+# Day 10: 23rd April
+React Fragments. Fragments lets us group a list of children element without adding extra node to the DOM. React fragment can take in key attribute. react.fragment can be replace with an empty tag. <></>
 
 # Day :
 

@@ -7,7 +7,9 @@
 // import NameList from './Component/nameList';
 // import Stylesheet from './Component/Stylesheet';
 // import Inline from './Component/Inline';
-import FormControl from './Component/formControl';
+// import FormControl from './Component/formControl';
+import FragmentDemo from './Component/FragmentDemo';
+import Table from './Component/Table';
 import './App.css'
 
 function App() {
@@ -22,7 +24,9 @@ function App() {
       {/* <NameList/> */}
       {/* <Stylesheet primary = {true}/> */}
       {/* <Inline/> */}
-      <FormControl/>
+      {/* <FormControl/> */}
+      {/* <FragmentDemo/> */}
+      <Table/>
     </div>
   );
 }
