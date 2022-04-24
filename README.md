@@ -66,9 +66,10 @@ React lifecycle Methods in a class Components
 4. Error Handling
 
 # Day 10: 23rd April
-React Fragments. Fragments lets us group a list of children element without adding extra node to the DOM. React fragment can take in key attribute. react.fragment can be replace with an empty tag. <></>
+React Fragments. Fragments lets us group a list of children element without adding extra node to the DOM. React fragment can take in key attribute. react.fragment can be replace with an empty tag. <></> but this empty tag can not take in key attribute
 
-# Day :
+# Day 11: 24th April
+Pure components. we can create a component in react by extending the PureCompent class. The pure Component implements the shouldComponentUpdate() with Shalow props and state comparison, it test the previouse props and state with the current one to see if there is any change. Shalow Comparison can be studied with respect to premitive and complex types. But it is best practise to use regular componet always.
 
 # Day :
 

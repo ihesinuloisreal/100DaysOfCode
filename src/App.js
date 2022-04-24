@@ -8,9 +8,10 @@
 // import Stylesheet from './Component/Stylesheet';
 // import Inline from './Component/Inline';
 // import FormControl from './Component/formControl';
-import FragmentDemo from './Component/FragmentDemo';
-import Table from './Component/Table';
+// import FragmentDemo from './Component/FragmentDemo';
+// import Table from './Component/Table';
 import './App.css'
+import ParentComponent from './Component/ParentComponent';
 
 function App() {
   return (
@@ -26,7 +27,8 @@ function App() {
       {/* <Inline/> */}
       {/* <FormControl/> */}
       {/* <FragmentDemo/> */}
-      <Table/>
+      {/* <Table/> */}
+      <ParentComponent/>
     </div>
   );
 }
