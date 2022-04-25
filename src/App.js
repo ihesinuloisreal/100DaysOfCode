@@ -11,6 +11,7 @@
 // import FragmentDemo from './Component/FragmentDemo';
 // import Table from './Component/Table';
 import './App.css'
+// import Regulator from './Component/Regulator';
 import ParentComponent from './Component/ParentComponent';
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
       {/* <FragmentDemo/> */}
       {/* <Table/> */}
       <ParentComponent/>
+      {/* <Regulator/> */}
     </div>
   );
 }
