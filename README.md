@@ -74,7 +74,8 @@ Pure components. we can create a component in react by extending the PureCompent
 # Day 12: 25th April
 Memo: what PureComponents is to react class Component so is Memo to functional Component.
 
-# Day :
+# Day 13: 26 April
+I created some components for a we page i am working on. 
 
 # Day :
 
