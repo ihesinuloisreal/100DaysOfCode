@@ -11,8 +11,11 @@
 // import FragmentDemo from './Component/FragmentDemo';
 // import Table from './Component/Table';
 import './App.css'
+import FocusInput from './Component/FocusInput';
+import FrParentInput from './Component/FrParentInput';
 // import Regulator from './Component/Regulator';
 import ParentComponent from './Component/ParentComponent';
+import RefsDemo from './Component/RefsDemo';
 
 function App() {
   return (
@@ -29,8 +32,11 @@ function App() {
       {/* <FormControl/> */}
       {/* <FragmentDemo/> */}
       {/* <Table/> */}
-      <ParentComponent/>
+      {/* <ParentComponent/> */}
       {/* <Regulator/> */}
+      {/* <RefsDemo/> */}
+      {/* <FocusInput/> */}
+      <FrParentInput/>
     </div>
   );
 }

@@ -72,12 +72,17 @@ React Fragments. Fragments lets us group a list of children element without addi
 Pure components. we can create a component in react by extending the PureCompent class. The pure Component implements the shouldComponentUpdate() with Shalow props and state comparison, it test the previouse props and state with the current one to see if there is any change. Shalow Comparison can be studied with respect to premitive and complex types. But it is best practise to use regular componet always.
 
 # Day 12: 25th April
-Memo: what PureComponents is to react class Component so is Memo to functional Component.
+Memo: what PureComponents is to react class Component so is Memo to functional Component. to export a memo you use (export default React.memo(ClassName)) 
 
 # Day 13: 26 April
 I created some components for a we page i am working on. 
 
-# Day :
+# Day 14: 2nd May
+Refs: refs make it possible to access dom element from react. You can use the focus your cursor on an input field by calling the (current.focos()) method. 
+Refs with ClassComponent: Res can only be applied to class components not functional components. 
+Refs Forwarding: Basically, this can come in handy when you are working with libraries. 
+
+Portals: 
 
 # Day :
 
