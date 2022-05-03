@@ -11,8 +11,12 @@
 // import FragmentDemo from './Component/FragmentDemo';
 // import Table from './Component/Table';
 import './App.css'
+import ClickCounter from './Component/ClickCounter';
+import Errorboundary from './Component/Errorboundary';
 import FocusInput from './Component/FocusInput';
 import FrParentInput from './Component/FrParentInput';
+import Hero from './Component/Hero';
+import HoverCounter from './Component/HoverCounter';
 // import Regulator from './Component/Regulator';
 import ParentComponent from './Component/ParentComponent';
 import RefsDemo from './Component/RefsDemo';
@@ -20,6 +24,16 @@ import RefsDemo from './Component/RefsDemo';
 function App() {
   return (
     <div className="App">
+    {/* <Errorboundary>
+    <Hero heroName="Batman"/>
+    </Errorboundary>
+
+    <Errorboundary>
+    <Hero heroName="SuperMan"/>
+    </Errorboundary>
+    <Errorboundary>
+    <Hero heroName="Joker"/>
+    </Errorboundary> */}
     {/* <Parent/> */}
       {/* <Message/> */}
       {/* <Counter/> */}
@@ -36,7 +50,10 @@ function App() {
       {/* <Regulator/> */}
       {/* <RefsDemo/> */}
       {/* <FocusInput/> */}
-      <FrParentInput/>
+      {/* <FrParentInput/> */}
+      <HoverCounter/>
+      <ClickCounter/>
+
     </div>
   );
 }

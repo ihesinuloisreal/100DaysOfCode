@@ -82,8 +82,14 @@ Refs: refs make it possible to access dom element from react. You can use the fo
 Refs with ClassComponent: Res can only be applied to class components not functional components. 
 Refs Forwarding: Basically, this can come in handy when you are working with libraries. 
 
-Portals: 
 
-# Day :
+# Day 15: 3rd May
+Portals: Portals can be used to render jsx to a different div tag in the root. Portals basically acts as child components. Portals can be rendered by calling (return ReactDOM.createPortal()) and it takes in two arguements, the JSX and the DOM ID.
+return ReactDOM.createPortal(
+    <h1>Portals dome</h1>, document.getElementById('portal-root')
+)
+Error Boundearies: are React components that catche javascript error in their child componente tree, log those errors, and display a fall-back UI. 
+High Order Components: Is a pattern where a function takes a component as an argument and returns a new component
+const NewComponent = higherOrderComponent{ originalComponent }
 
 # Day :
