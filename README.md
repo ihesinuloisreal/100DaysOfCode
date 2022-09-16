@@ -91,5 +91,54 @@ return ReactDOM.createPortal(
 Error Boundearies: are React components that catche javascript error in their child componente tree, log those errors, and display a fall-back UI. 
 High Order Components: Is a pattern where a function takes a component as an argument and returns a new component
 const NewComponent = higherOrderComponent{ originalComponent }
+Basically the Higher Order Components is used to put codes that are to be reused in the caurse of writting a program.
+HOC help us to reuse codes other than duplicating them.
+
+# Day 16: 4th May
+1. Passing Down Props: When you create HOC it is importante to pass down the remaining props { ... this.props} or else if other props are passed it gets sent down to the HOC components other than the actual component it is being passed to.
+2. Passing Parameters: Say we want to increament the value by defferent numbers, we can do that by passing a parameter to the HOC 
+
+# Day :
+Had some challanges that has made me not been faithfull with this both i will continue from where i stopped.
+
+# Day :
+
+# Day :
+
+# Day :
+
+# Day :
+
+# Day :
+
+# Day :
+
+# Day :
+
+# Day :
+
+# Day :
+
+# Day :
+
+# Day :
+
+# Day :
+
+# Day :
+
+# Day :
+
+# Day :
+
+# Day :
+
+# Day :
+
+# Day :
+
+# Day :
+
+# Day :
 
 # Day :

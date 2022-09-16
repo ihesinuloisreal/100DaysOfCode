@@ -51,8 +51,8 @@ function App() {
       {/* <RefsDemo/> */}
       {/* <FocusInput/> */}
       {/* <FrParentInput/> */}
-      <HoverCounter/>
-      <ClickCounter/>
+      <HoverCounter name="Israel"/>
+      <ClickCounter />
 
     </div>
   );
