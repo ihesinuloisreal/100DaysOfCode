@@ -101,7 +101,8 @@ HOC help us to reuse codes other than duplicating them.
 # Day :
 Had some challanges that has made me not been faithfull with this both i will continue from where i stopped.
 
-# Day :
+# Day 17: 
+I passed state as props between class components
 
 # Day :
 
