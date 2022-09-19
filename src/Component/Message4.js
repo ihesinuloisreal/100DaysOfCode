@@ -26,7 +26,7 @@ export class Message4 extends Component {
             <input type="text" value={this.state.name} onChange={ this.textHandler } />
             <button>Click</button>
         </form>
-        // { <h1>{this.state.name}</h1> }
+        {/* <h1>{this.state.name}</h1> */}
 
         <Message3 out={this.state.name}/>
       </div>
