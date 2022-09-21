@@ -104,7 +104,8 @@ Had some challanges that has made me not been faithfull with this both i will co
 # Day 17: 
 I passed state as props between class components
 
-# Day :
+# Day 18:
+I read a document on react
 
 # Day :
 
