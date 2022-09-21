@@ -1,4 +1,7 @@
+
 import React, { Component } from 'react'
+import Button from '../Components/Button'
+import Input from '../Components/Input'
 import Message3 from './Message3'
 
 export class Message4 extends Component {
@@ -23,8 +26,9 @@ export class Message4 extends Component {
     return (
       <div>
         <form onSubmit={this.handleClick}>
-            <input type="text" value={this.state.name} onChange={ this.textHandler } />
-            <button>Click</button>
+
+            <Input type="text" value={this.state.name} onChange={ this.textHandler } />
+            <Button name="Click"/>
         </form>
         {/* <h1>{this.state.name}</h1> */}
 
