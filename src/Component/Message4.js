@@ -17,20 +17,20 @@ export class Message4 extends Component {
             name: event.target.value
         })
     }
-    handleClick(e){
-        console.log(this.state.name)
-        e.preventDefault();
+    handleClick = (e) => {
+      e.preventDefault();
+      console.log(this.state.name)
     }
 
   render() {
     return (
       <div>
-        <form onSubmit={this.handleClick}>
+        
 
-            <Input type="text" value={this.state.name} onChange={ this.textHandler } />
-            <Button name="Click"/>
-        </form>
-        {/* <h1>{this.state.name}</h1> */}
+            <input type="text" onChange={ this.textHandler } value={this.state.name}/>
+            <Button name="Click" click={this.handleClick}/>
+       
+        <h1>{this.state.name}</h1>
 
         <Message3 out={this.state.name}/>
       </div>

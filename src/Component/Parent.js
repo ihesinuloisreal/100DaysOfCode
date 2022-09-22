@@ -16,6 +16,7 @@ class Parent extends Component {
     greatParent(childName){
         alert(`Hello ${this.state.parent} from ${childName}`)
     }
+    
 
   render() {
     return (

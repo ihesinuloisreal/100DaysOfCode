@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 
 export class Message3 extends Component {
+  
   render() {
     return (
       <div>
