@@ -107,7 +107,8 @@ I passed state as props between class components
 # Day 18:
 I read a document on react
 
-# Day :
+# Day 19:
+i created a state in react class component and passed then state as a prop into a react function component.
 
 # Day :
 

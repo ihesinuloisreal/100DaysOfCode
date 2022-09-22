@@ -3,8 +3,7 @@ import React, { Component } from 'react'
 import Button from '../Components/Button'
 import Input from '../Components/Input'
 import Message3 from './Message3'
-
-export class Message4 extends Component {
+class Message4 extends Component {
     constructor(props) {
       super(props)
     
@@ -27,7 +26,7 @@ export class Message4 extends Component {
       <div>
         
 
-            <input type="text" onChange={ this.textHandler } value={this.state.name}/>
+            <Input type="text" change={ this.textHandler } value={this.state.name}/>
             <Button name="Click" click={this.handleClick}/>
        
         <h1>{this.state.name}</h1>
