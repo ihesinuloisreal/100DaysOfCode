@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Button = ({name,click}) => {
+const Button = ({name,click, greetparent}) => {
   return (
     <div>
-        <button onClick={click}>{name}</button>
+        <button onClick={() => greetparent("Israel")}>{name}</button>
     </div>
   )
 }

@@ -110,7 +110,8 @@ I read a document on react
 # Day 19:
 i created a state in react class component and passed then state as a prop into a react function component.
 
-# Day :
+# Day 20:
+Read a document on Template Literals, used it in ouputing an output. And also, i I passed method as a prop from a parent component to a child component and recieved an aguement from the child component back to the parent component.
 
 # Day :
 

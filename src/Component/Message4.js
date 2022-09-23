@@ -8,8 +8,14 @@ class Message4 extends Component {
       super(props)
     
       this.state = {
-         name: ''
+         name: '',
+         ParentName: 'Amos'
+
       }
+    }
+
+    greetParent = (child) =>{
+      alert(`Hello ${this.state.ParentName} it is ${child}`)
     }
     textHandler = (event) => {
         this.setState({
@@ -27,7 +33,7 @@ class Message4 extends Component {
         
 
             <Input type="text" change={ this.textHandler } value={this.state.name}/>
-            <Button name="Click" click={this.handleClick}/>
+            <Button name="Click" greetparent={this.greetParent} click={this.handleClick}/>
        
         <h1>{this.state.name}</h1>
 
