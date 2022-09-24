@@ -9,37 +9,53 @@ class Message4 extends Component {
     
       this.state = {
          name: '',
-         ParentName: 'Amos'
+         ParentName: 'Amos',
+         isLog: false
 
       }
     }
 
     greetParent = (child) =>{
-      alert(`Hello ${this.state.ParentName} it is ${child}`)
+      // alert(`Hello ${this.state.ParentName} it is ${child}`);
+      this.setState(prevState => ({
+                isLog: !prevState.isLog
+            }))
     }
-    textHandler = (event) => {
-        this.setState({
-            name: event.target.value
-        })
-    }
-    handleClick = (e) => {
-      e.preventDefault();
-      console.log(this.state.name)
-    }
+    // textHandler = (event) => {
+    //     this.setState({
+    //         name: event.target.value
+    //     })
+    // }
+    // handleClick = (e) => {
+    //   e.preventDefault();
+    //   console.log(this.state.name)
+    // }
 
   render() {
-    return (
-      <div>
-        
+    if (this.state.isLog) {
+      return (
+        <div>
 
-            <Input type="text" change={ this.textHandler } value={this.state.name}/>
-            <Button name="Click" greetparent={this.greetParent} click={this.handleClick}/>
-       
-        <h1>{this.state.name}</h1>
+          <h1>Welcome Israel</h1>
+          <Button name="Logout" greetparent={this.greetParent} click={this.handleClick}/>
 
-        <Message3 out={this.state.name}/>
-      </div>
-    )
+        </div>
+      )
+    } else {
+      return (
+        <div>
+          
+            <h1>Welcome Guest</h1>
+              {/* <Input type="text" change={ this.textHandler } value={this.state.name}/> */}
+              <Button name="Login" greetparent={this.greetParent} click={this.handleClick}/>
+         
+          {/* <h1>{this.state.name}</h1> */}
+  
+          {/* <Message3 out={this.state.name}/> */}
+        </div>
+      )
+    }
+    
   }
 }
 

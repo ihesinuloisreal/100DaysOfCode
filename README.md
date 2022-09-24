@@ -113,7 +113,9 @@ i created a state in react class component and passed then state as a prop into 
 # Day 20:
 Read a document on Template Literals, used it in ouputing an output. And also, i I passed method as a prop from a parent component to a child component and recieved an aguement from the child component back to the parent component.
 
-# Day :
+# Day 21:
+1. Worked on a button toggle using prevState in class component. Learnt that if a new state is dependent on a previouse state, we use (prevState =>({newState: !prevState.oldState})).
+!prevState means opposite of the previouse State.
 
 # Day :
 
