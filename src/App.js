@@ -19,6 +19,7 @@ import Message3 from './Component/Message3';
 // import Hero from './Component/Hero';
 // import HoverCounter from './Component/HoverCounter';
 import Message4 from './Component/Message4';
+import { UserProvider } from './Contex/userContext';
 // import Regulator from './Component/Regulator';
 // import ParentComponent from './Component/ParentComponent';
 // import RefsDemo from './Component/RefsDemo';
@@ -55,8 +56,10 @@ function App() {
       {/* <FrParentInput/> */}
       {/* <HoverCounter name="Israel"/>
       <ClickCounter /> */}
-      <Message4/>
-      <Message3/>
+      <UserProvider value="Israel"> 
+        <Message4/>
+        <Message3/>
+      </UserProvider>
 
     </div>
   );
